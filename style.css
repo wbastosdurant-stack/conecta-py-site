@@ -92,8 +92,8 @@ a{
   display:grid;
   grid-template-columns:1fr 1fr;
   align-items:center;
-  gap:70px;
-  padding-top:40px;
+  gap:50px;
+  padding-top:20px;
 }
 
 .hero-content h1{
@@ -144,10 +144,10 @@ a{
 
 .hero-image img{
   width:100%;
-  height:520px;
+  max-height:480px;
   object-fit:cover;
-  border-radius:32px;
-  box-shadow:0 25px 60px rgba(0,0,0,0.35);
+  border-radius:28px;
+  box-shadow:0 20px 40px rgba(0,0,0,0.30);
 }
 
 section{
@@ -263,6 +263,13 @@ footer p{
   z-index:999;
 }
 
+.hero-content h1{
+  font-size:4rem;
+  line-height:1.05;
+  margin:20px 0;
+  max-width:600px;
+}
+
 @media(max-width:980px){
 
   .navbar{
@@ -271,11 +278,7 @@ footer p{
 
   .hero{
     grid-template-columns:1fr;
-  }
-
-  .hero-content h1{
-    font-size:3rem;
-  }
+  
 
   .menu{
     flex-wrap:wrap;
