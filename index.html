@@ -132,15 +132,18 @@
 
 .gallery img {
     width: 100%;
-    border-radius: 12px;
-    height: 250px;
+    height: 260px;
     object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    transition: 0.3s;
+    border-radius: 18px;
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 .gallery img:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+
 }
 .gallery {
     display: grid;
