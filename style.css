@@ -279,7 +279,9 @@ footer p{
   .hero{
     grid-template-columns:1fr;
   
-
+.hero-content h1{
+  font-size:3rem;
+}
   .menu{
     flex-wrap:wrap;
     justify-content:center;
