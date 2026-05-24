@@ -17,8 +17,7 @@ a{
 .header{
   background:linear-gradient(135deg,#002b7a,#001845);
   color:white;
-  min-height:100vh;
-  padding:30px 7%;
+  padding:25px 7% 60px;
 }
 
 .navbar{
