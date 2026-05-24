@@ -25,7 +25,7 @@ a{
   justify-content:space-between;
   align-items:center;
   gap:30px;
-  margin-bottom:80px;
+  margin-bottom:10px;
 }
 
 .logo-area{
@@ -93,7 +93,8 @@ a{
   grid-template-columns:1fr 1fr;
   align-items:center;
   gap:50px;
-  padding-top:20px;
+  padding-top:0;
+  margin-top:-40px;
 }
 
 .hero-content h1{
@@ -118,6 +119,7 @@ a{
   font-size:14px;
   font-weight:700;
   display:inline-block;
+  margin-bottom:20px;
 }
 
 .hero-buttons{
