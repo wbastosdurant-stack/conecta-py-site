@@ -36,7 +36,7 @@ a{
 }
 
 .logo-area img{
-  width:170px;
+  width:220px;
 }
 
 .logo-text{
@@ -93,7 +93,8 @@ a{
   display:grid;
   grid-template-columns:1fr 1fr;
   align-items:center;
-  gap:60px;
+  gap:80px;
+  min-height:75vh;
 }
 
 .hero-content h1{
