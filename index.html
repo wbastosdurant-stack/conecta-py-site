@@ -123,110 +123,214 @@
         font-size: 2.2rem;
       }
     }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 12px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+}
   </style>
 </head>
 <body>
 
+  <body>
+
+  <a href="https://wa.me/595984184307" class="whatsapp-float">
+    WhatsApp
+  </a>
+
   <header>
     <div class="language">🇧🇷 PT | 🇵🇾 ES</div>
     <h1>Conecta PY</h1>
-    <p>
-      Logística, compras e transporte entre Brasil e Paraguai.
-      Recebemos, organizamos e enviamos mercadorias com rapidez,
-      segurança e atendimento direto.
-    </p>
-    <a href="https://wa.me/5500000000000" class="btn">Falar no WhatsApp</a>
+
+
+<p>
+  Logística, compras e transporte entre Brasil e Paraguai.
+  Recebemos, organizamos e enviamos mercadorias com rapidez,
+  segurança e atendimento direto.
+</p>
+
+<a href="https://wa.me/595984184307?text=Olá!%20vim%20pelo%20site%20da%20Conecta%20PY." class="btn">
+  Falar no WhatsApp
+</a>
+
+
   </header>
 
   <section>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;align-items:center;margin-bottom:60px;">
-      <div>
-        <h2 style="font-size:2.8rem;color:#004aad;margin-bottom:20px;">Logística Brasil ↔ Paraguai</h2>
-        <p style="font-size:1.1rem;margin-bottom:20px;">
-          Estrutura preparada para encomendas, cargas industriais, recebimento de mercadorias e transporte com rapidez e segurança.
-        </p>
-        <p style="font-size:1rem;color:#475569;">
-          Atendimento direto, taxas acessíveis e suporte completo para compras online e cargas pesadas.
-        </p>
-      </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px;align-items:center;">
 
-      <div>
-        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop" alt="Logística" style="width:100%;border-radius:22px;box-shadow:0 15px 35px rgba(0,0,0,0.18);">
-      </div>
-    </div>
 
-    <div class="section-title">
-      <h2>Nossos Serviços</h2>
-    </div>
+  <div>
+    <h2 style="font-size:2.7rem;color:#004aad;margin-bottom:20px;">
+      Logística Brasil ↔ Paraguai
+    </h2>
 
-    <div class="cards">
-      <div class="card">
-        <h3>Compras Online</h3>
-        <p>
-          Compramos em sites como Shein, Mercado Livre, Amazon e muito mais.
-        </p>
-      </div>
+    <p style="font-size:1.1rem;margin-bottom:20px;">
+      Estrutura preparada para encomendas, cargas industriais,
+      recebimento de mercadorias e transporte com rapidez e segurança.
+    </p>
 
-      <div class="card">
-        <h3>Recebimento de Mercadorias</h3>
-        <p>
-          Recebemos encomendas no Brasil e realizamos o envio para o Paraguai.
-        </p>
-      </div>
+    <p style="color:#475569;">
+      Atendimento direto, taxas acessíveis e suporte completo para compras online e cargas pesadas.
+    </p>
+  </div>
 
-      <div class="card">
-        <h3>Cargas Industriais</h3>
-        <p>
-          Transporte de correias, rolamentos, acoplamentos e equipamentos industriais.
-        </p>
-      </div>
+  <div>
+    <img
+      src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop"
+      style="width:100%;border-radius:24px;box-shadow:0 20px 40px rgba(0,0,0,0.18);"
+    >
+  </div>
 
-      <div class="card">
-        <h3>Estrutura Completa</h3>
-        <p>
-          Espaço para descarga, empilhadeira, apoio logístico e documentação.
-        </p>
-      </div>
-    </div>
+</div>
+
+
   </section>
 
   <section>
-    <div class="highlight">
-      <h2>Taxas Baixas e Atendimento Direto</h2>
-      <p>
-        Trabalhamos com valores acessíveis e atendimento personalizado para agilizar suas compras e entregas.
-      </p>
-    </div>
+
+
+<div class="section-title">
+  <h2>Nossos Serviços</h2>
+</div>
+
+<div class="cards">
+
+  <div class="card">
+    <h3>Compras Online</h3>
+    <p>
+      Compramos em sites como Shein, Amazon, Mercado Livre e muito mais.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Recebimento</h3>
+    <p>
+      Recebemos mercadorias no Brasil e organizamos o envio ao Paraguai.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Cargas Industriais</h3>
+    <p>
+      Transporte de equipamentos, correias, rolamentos e grandes volumes.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Estrutura Completa</h3>
+    <p>
+      Empilhadeira, espaço para descarga e apoio logístico especializado.
+    </p>
+  </div>
+
+</div>
+
+
   </section>
 
   <section>
-    <div class="section-title">
-      <h2>Por que escolher a Conecta PY?</h2>
-    </div>
 
-    <div class="cards">
-      <div class="card">
-        <h3>Atendimento Humanizado</h3>
-        <p>Você fala diretamente conosco para orçamentos e acompanhamento.</p>
-      </div>
+<div class="section-title">
+  <h2>Como Funciona</h2>
+</div>
 
-      <div class="card">
-        <h3>Agilidade</h3>
-        <p>Processos rápidos para compras, recebimentos e transporte.</p>
-      </div>
+<div class="cards">
 
-      <div class="card">
-        <h3>Segurança</h3>
-        <p>Estrutura preparada para mercadorias leves e pesadas.</p>
-      </div>
-    </div>
+  <div class="card">
+    <h3>1. Você compra</h3>
+    <p>Você realiza suas compras no Brasil.</p>
+  </div>
+
+  <div class="card">
+    <h3>2. Recebemos</h3>
+    <p>Recebemos e organizamos suas encomendas.</p>
+  </div>
+
+  <div class="card">
+    <h3>3. Transportamos</h3>
+    <p>Realizamos o envio rápido e seguro ao Paraguai.</p>
+  </div>
+
+  <div class="card">
+    <h3>4. Entrega</h3>
+    <p>Você recebe sua mercadoria com segurança.</p>
+  </div>
+
+</div>
+
+  </section>
+
+  <section>
+
+```
+<div class="section-title">
+  <h2>Operações Reais</h2>
+</div>
+
+<div class="gallery">
+
+  <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=1200&auto=format&fit=crop">
+
+  <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=1200&auto=format&fit=crop">
+
+  <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200&auto=format&fit=crop">
+
+  <img src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?q=80&w=1200&auto=format&fit=crop">
+
+</div>
+
+  </section>
+
+  <section>
+
+<div class="highlight">
+  <h2>Atendimento Direto e Taxas Acessíveis</h2>
+
+  <p>
+    Trabalhamos com rapidez, segurança e suporte personalizado para compras online,
+    encomendas e cargas industriais.
+  </p>
+
+  <a href="https://wa.me/595984184307" class="btn">
+    Solicitar Orçamento
+  </a>
+
+</div>
+
   </section>
 
   <footer>
-    <h3>Conecta PY</h3>
-    <p>Salto del Guairá • Paraguai</p>
-    <p>Logística Brasil ↔ Paraguai</p>
+
+<h3>Conecta PY</h3>
+
+<p>Salto del Guairá • Paraguai</p>
+
+<p>📞 +595 984 184307</p>
+<p>📞 +595 983 597528</p>
+
+<p style="margin-top:15px;">
+  Logística Brasil ↔ Paraguai
+</p>
+
   </footer>
+
+</body>
+
 
 </body>
 </html>
