@@ -175,19 +175,32 @@ section{
 
 .card{
   background:white;
-  border-radius:24px;
-  padding:35px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.08);
-  transition:0.3s;
+  padding:45px 38px;
+  border-radius:28px;
+
+  border:1px solid rgba(0,0,0,0.04);
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,0.05);
+
+  transition:0.35s;
 }
 
 .card:hover{
-  transform:translateY(-8px);
+  transform:translateY(-12px);
+  box-shadow:
+  0 25px 50px rgba(0,0,0,0.10);
 }
 
 .card h3{
+  font-size:1.4rem;
   margin-bottom:18px;
   color:#001845;
+}
+
+.card p{
+  line-height:1.8;
+  color:#475569;
 }
 
 .gallery{
