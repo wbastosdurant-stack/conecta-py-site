@@ -35,10 +35,12 @@ a{
 }
 
 .logo-area img{
-  width:240px;
-  padding:10px 16px;
-  border-radius:18px;
-  background:rgba(255,255,255,0.04);
+  width:180px;
+
+  filter:
+  drop-shadow(0 4px 10px rgba(0,0,0,0.25));
+
+  transition:0.3s;
 }
 
 .logo-text{
