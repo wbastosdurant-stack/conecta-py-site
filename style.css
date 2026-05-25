@@ -173,6 +173,11 @@ section{
   margin-top:50px;
 }
 
+ .steps .card{
+  position:relative;
+  overflow:hidden;
+}
+
 .card{
   background:white;
   padding:45px 38px;
