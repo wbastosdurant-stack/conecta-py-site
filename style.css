@@ -35,7 +35,8 @@ a{
 }
 
 .logo-area img{
-  width:180px;
+  width:165px;
+
 
   filter:
   drop-shadow(0 0 12px rgba(255,255,255,0.08))
@@ -45,11 +46,13 @@ a{
 }
 
 .logo-text{
-  display:flex;
-  flex-direction:column;
-  font-size:14px;
+  font-size:12px;
+
   line-height:1.2;
-  color:#dbeafe;
+
+  color:rgba(255,255,255,0.72);
+
+  max-width:160px;
 }
 
 .menu{
