@@ -163,12 +163,12 @@ a{
 
 section{
   padding:100px 7%;
-  scroll-margin-top:60px;
+  scroll-margin-top:40px;
 }
 
 .section-title{
   text-align:center;
-  margin-bottom:10px;
+  margin-bottom:60px;
 }
 
 .section-title h2{
