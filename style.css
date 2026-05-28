@@ -334,14 +334,17 @@ footer p{
   gap:10px;
 }
 
-  .logo-area img{
-    width:180px;
-  }
-
-.logo-text{
+  .logo-text{
   font-size:13px;
   line-height:1.3;
-}
+}.logo-area img{
+    width:180px;
+ 
+
+  .logo-text{
+    text-align:center;
+    max-width:100%;
+  }
 
   .menu{
   flex-wrap:wrap;
