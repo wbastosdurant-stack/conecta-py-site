@@ -327,30 +327,34 @@ footer p{
     padding:18px;
   }
 
-  .logo-area{
-    flex-direction:column;
-    text-align:center;
-  }
+ .logo-area{
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  gap:10px;
+}
 
   .logo-area img{
     width:180px;
   }
 
-  .logo-text{
-    text-align:center;
-    max-width:100%;
-  }
+.logo-text{
+  font-size:13px;
+  line-height:1.3;
+}
 
   .menu{
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:18px;
-  }
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:14px;
+  font-size:15px;
+}
 
   .nav-right{
-    flex-direction:column;
-    width:100%;
-  }
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
 
   .hero{
     grid-template-columns:1fr;
@@ -364,10 +368,11 @@ footer p{
     align-items:center;
   }
 
-  .hero-content h1{
-    font-size:2.7rem;
-    max-width:100%;
-  }
+.hero-content h1{
+  font-size:2.2rem;
+  line-height:1.1;
+  max-width:100%;
+}
 
   .hero-content p{
     max-width:100%;
